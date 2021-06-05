@@ -149,7 +149,7 @@ public class ConsultaDetallesFactura implements ActionListener, WindowListener
 				FileOutputStream ficheroPdf = new FileOutputStream("ConsultaDetalles.pdf");
 				PdfWriter.getInstance(documento, ficheroPdf).setInitialLeading(20);
 				documento.open();
-				documento.add(new Paragraph("Listado de Facturas",
+				documento.add(new Paragraph("Listado de Detalles",
 						FontFactory.getFont("arial", // fuente 
 								22, // tamaño 
 								Font.ITALIC, // estilo 

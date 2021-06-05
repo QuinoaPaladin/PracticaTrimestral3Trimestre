@@ -143,7 +143,7 @@ public class ConsultaDistribuidor implements ActionListener, WindowListener
 				FileOutputStream ficheroPdf = new FileOutputStream("ConsultaDistribuidor.pdf");
 				PdfWriter.getInstance(documento, ficheroPdf).setInitialLeading(20);
 				documento.open();
-				documento.add(new Paragraph("Listado de Facturas",
+				documento.add(new Paragraph("Listado de Distribuidores",
 						FontFactory.getFont("arial", // fuente 
 								22, // tamaño 
 								Font.ITALIC, // estilo 

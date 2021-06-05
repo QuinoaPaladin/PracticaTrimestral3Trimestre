@@ -155,7 +155,7 @@ public class ConsultaProducto implements ActionListener, WindowListener
 				FileOutputStream ficheroPdf = new FileOutputStream("ConsultaProducto.pdf");
 				PdfWriter.getInstance(documento, ficheroPdf).setInitialLeading(20);
 				documento.open();
-				documento.add(new Paragraph("Listado de Facturas",
+				documento.add(new Paragraph("Listado de Productos",
 						FontFactory.getFont("arial", // fuente 
 								22, // tamaño 
 								Font.ITALIC, // estilo 
