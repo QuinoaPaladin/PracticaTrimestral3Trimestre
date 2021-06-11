@@ -69,8 +69,7 @@ public class ConsultaProducto implements ActionListener, WindowListener
 			listadoProductos.append("id\tNombre\tPrecio\tIVA\tDistribuidor\n");
 			while(rs.next())
 			{
-				subSentencia = "SELECT * FROM distribuidores WHERE idDistribuidor="
-			+ rs.getString("idDistribuidorFK");
+				subSentencia = "SELECT * FROM distribuidores WHERE idDistribuidor="+ rs.getString("idDistribuidorFK");
 				rsDistribuidores = statementDistribuidores.executeQuery(subSentencia);
 				rsDistribuidores.next();
 				listadoProductos.append(rs.getInt("idProducto")

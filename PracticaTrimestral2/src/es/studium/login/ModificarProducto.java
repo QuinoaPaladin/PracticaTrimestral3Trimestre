@@ -29,7 +29,7 @@ public class ModificarProducto implements ActionListener, WindowListener
 	Label lblNombreProducto = new Label("Nombre:");
 	Label lblPrecioProducto = new Label("Precio:");
 	Label lblivaProducto = new Label("IVA:");
-	Label lblidDistribuidorFK = new Label("idDistribuidor:");
+	Label lblidDistribuidorFK = new Label("NºDistribuidor:");
 	TextField txtId = new TextField(20);
 	TextField txtNombre = new TextField(20);
 	TextField txtPrecioProducto = new TextField(20);

@@ -28,8 +28,8 @@ public class ModificarDetallesFactura implements ActionListener, WindowListener
 	Label lblidDetallesFactura = new Label("idDetallesFactura:");
 	Label lblTotalIva = new Label("Total IVA:");
 	Label lblTotalCoste = new Label("Total Coste:");
-	Label lblidFacturaFK = new Label("idFacturaFK:");
-	Label lblidProductoFK = new Label("idProductoFK:");
+	Label lblidFacturaFK = new Label("NºFactura:");
+	Label lblidProductoFK = new Label("NºProducto:");
 	TextField txtId = new TextField(20);
 	TextField txtTotalIva = new TextField(20);
 	TextField txtTotalCoste = new TextField(20);

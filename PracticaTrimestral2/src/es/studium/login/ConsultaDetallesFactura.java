@@ -62,7 +62,7 @@ public class ConsultaDetallesFactura implements ActionListener, WindowListener
 			rs = statement.executeQuery(sentencia);
 			listadoDetallesFactura.selectAll();
 			listadoDetallesFactura.setText("");
-			listadoDetallesFactura.append("id\tTotalIva\tTotalCoste\tidFacturaFK\tidProductoFK\n");
+			listadoDetallesFactura.append("id\tTotalIva\tTotalCoste\tNºFactura\tNºProducto\n");
 			while(rs.next())
 			{
 				listadoDetallesFactura.append(rs.getInt("idDetallesFactura")
